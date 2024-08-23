@@ -21,7 +21,6 @@
     opacity: 86%;
     text-align: justify;
     background-color: var(--marron);
-    color: antiquewhite;
   
   }
   
@@ -40,7 +39,16 @@
   .navbar-logo img {
     display: block;
     height: auto;
-    width: 150px;
+    width: 250px;
   
   }
+
+  /*.bg-image {
+    background-image: url('img/logo/WhatsApp\ Image\ 2024-08-20\ at\ 2.07.37\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+  }*/
+
+  
 
