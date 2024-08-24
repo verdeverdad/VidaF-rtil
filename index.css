@@ -18,7 +18,6 @@
     z-index: 11; /*elementos por delante*/
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px); /*desenfoque*/
-    opacity: 86%;
     text-align: justify;
     background-color: var(--marron);
   
@@ -47,6 +46,20 @@
     .img-fluida {
       width: 100px; /* Ajusta el ancho según tu preferencia */
     }
+  }
+
+  #element {
+    color: var(--marron);
+    font-size: 2rem;
+    
+  }
+
+  #frase-inicio {
+    height: 200px;
+  }
+
+  .fondo-marron {
+    background-color: var(--marron);
   }
 
   /*.bg-image {
