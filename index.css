@@ -4,6 +4,10 @@
   --blanco: #f5eeee;
   --negro: #1d1b1b;
 }
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 
 .navbar {
   position: relative;
@@ -63,10 +67,11 @@
 }
 
 #parrafo-inicio {
-  height: 350px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
 .fondo-marron {

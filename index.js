@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         typeSpeed: 50,
         loop: true,
         backDelay: 900,
-        backSpeed: 20,
+        backSpeed: 10,
 
     });
 });
