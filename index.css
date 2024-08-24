@@ -55,19 +55,32 @@ body {
   }
 }
 
-#element,
-#parrafo-inicio {
+
+
+#element {
   color: var(--marron);
-  font-size: 2rem;
+  font-size: 2.2rem;
+
+}
+
+#parrafo-inicio, #parrafo-inicio2 {
+  color: var(--marron);
+  font-size: 1.5rem;
 
 }
 
 #frase-inicio {
-  height: 200px;
+  height: 250px;
 }
 
 #parrafo-inicio {
   height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#parrafo-inicio2 {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -13,6 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-// de
-  //          
+function ajustarAltoParrafo() {
+    const parrafo = document.getElementById('parrafo-inicio2'); // Reemplaza 'miParrafo' por el ID de tu párrafo
+    const anchoPantalla = window.innerWidth;
+  
+    // Ajusta los valores de ancho y alto según tus necesidades
+    if (anchoPantalla <= 768) { // Ajusta el ancho máximo para pantallas pequeñas
+      parrafo.style.height = '600px'; // Establece el alto deseado para pantallas pequeñas
+    } else {
+      parrafo.style.height = '400px'; // Permite que el alto se ajuste automáticamente en pantallas grandes
+    }
+  }    
+  
+  ajustarAltoParrafo();
