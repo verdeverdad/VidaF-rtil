@@ -1,9 +1,18 @@
 //Setup and start animation maquina de escribir
 document.addEventListener('DOMContentLoaded', () => {
     var typed = new Typed('#element', {
-  strings: ['<i>mas de treinta años<br> apostando por un planeta<br> mas sustentable</i>', '<i>y hoy tenemos<br> la misma ilusión <br>que el primer día.</i>'],
-  typeSpeed: 50,
-  loop: true,
- 
+        strings: ['<i>Más de treinta años<br> apostando por un planeta<br> mas sustentable</i>', '<i>y hoy<br> tenemos la misma ilusión <br>que el primer día.</i>'],
+        typeSpeed: 50,
+        loop: true,
+        backDelay: 900,
+        backSpeed: 20,
+
+    });
 });
-});
+
+
+
+
+
+// de
+  //          

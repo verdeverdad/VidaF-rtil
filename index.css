@@ -48,15 +48,19 @@
     }
   }
 
-  #element {
+  #element, #parrafo-inicio {
     color: var(--marron);
     font-size: 2rem;
     
   }
 
-  #frase-inicio {
+  #frase-inicio{
     height: 200px;
   }
+
+  #parrafo-inicio {
+    height: 320px;
+  } 
 
   .fondo-marron {
     background-color: var(--marron);
