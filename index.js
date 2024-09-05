@@ -46,3 +46,12 @@ function ajustarAltoParrafo() {
   }    
   
   ajustarAltoParrafo();
+
+  function abrirWhatsApp() {
+    const numeroTelefono = "+59892207574"; // Reemplaza con tu número
+    const mensaje = "Hola, me interesa el producto [Nombre del producto]. ¿Tienen disponible?";
+    const imagenUrl = "img/vida.700x700 (10).png";
+  
+    const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}&data=image&caption=${encodeURIComponent(imagenUrl)}`;
+    window.open(url, '_blank');
+  }
