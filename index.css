@@ -58,20 +58,26 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 
 
-#element {
+#element{
   color: var(--marron);
   font-size: 2.2rem;
 
 }
-
+#element2 {
+  color: var(--marron);
+  font-size: 1.6rem;
+}
 #parrafo-inicio, #parrafo-inicio2, .frases {
   color: var(--marron);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
 }
 
 #frase-inicio {
   height: 250px;
+}
+#frase-inicio2 {
+  height: 350px;
 }
 
 #parrafo-inicio {
@@ -96,6 +102,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   display: flex;
   align-items: center;
   justify-content: center; 
+  font-size: 1.5rem;
+
 }
 
 footer {
@@ -227,3 +235,4 @@ textarea {
   width: 100%;
   position: absolute;
 }
+

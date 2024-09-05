@@ -10,7 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  var typed = new Typed('#element2', {
+      strings: ['<i>En Vida Fértil creemos en el poder de la sustentabilidad<br> y la responsabilidad ambiental</i>', '<i>Nuestros abonos estan diseñados<br> para ser amigables con el medio ambiente<br> y ayudar a preservar los recursos naturales a largo plazo.</i>'],
+      typeSpeed: 28,
+      loop: true,
+      backDelay: 900,
+      backSpeed: 10,
 
+  });
+});
 
 
 function ajustarAltoParrafo() {
