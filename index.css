@@ -63,7 +63,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   font-size: 2.2rem;
 
 }
-#element2 {
+#element2, #element3 {
   color: var(--marron);
   font-size: 1.6rem;
 }
@@ -80,6 +80,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   height: 350px;
 }
 
+#frase-inicio3 {
+  height: 170px;
+}
 #parrafo-inicio {
   height: 400px;
   display: flex;
@@ -213,6 +216,7 @@ textarea {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .buttonEnviar:hover {
@@ -234,5 +238,22 @@ textarea {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px; /* Ajusta el ancho según tus necesidades */
+
+  margin: 10px;
+}
+
+.btn-whatsapp {
+  background-color: #4CAF50; /* Verde WhatsApp */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
 

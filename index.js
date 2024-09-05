@@ -21,6 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  var typed = new Typed('#element3', {
+      strings: ['<i>100 % O R G Á N I C O </i>', '<i>LIBRE DE QUÍMICOS</i>'],
+      typeSpeed: 28,
+      loop: true,
+      backDelay: 900,
+      backSpeed: 10,
+
+  });
+});
+
 
 function ajustarAltoParrafo() {
     const parrafo = document.getElementById('parrafo-inicio2'); // Reemplaza 'miParrafo' por el ID de tu párrafo
