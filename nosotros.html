@@ -12,17 +12,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-image sticky-top fixed-top align-items-center">
         <div class="container-fluid">
-            <a class="navbar-brand navbar-logo" href="index.html"><img src="img/vidafertil.logo/5.png"></a>
+            <a class="navbar-brand navbar-logo " href="index.html"><img src="img/vidafertil.logo/5.png"
+                    class="img-fluida"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,10 +35,10 @@
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: var(--verde);">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                        <a class="nav-link" aria-current="page" href="nosotros.html">NOSOTROS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="nuestrosAbonos.html">NUESTROS ABONOS</a>
@@ -52,16 +55,80 @@
             </div>
         </div>
     </nav>
+    <!-- Element to contain animated typing MAQUINA DE ESCRIBIR-->
+    <div id="frase-inicio">
+        <p id="element" class="text-center my-5"></p>
+    </div>
+
 
     <div class="">
-        <img src="img/abono.png" width="100%">
+        <img src="img/vida.index.png" width="100%">
+    </div>
+    <div id="parrafo-inicio2" class="text-center">
+        <p><i>La sustentabilidad<br> es la capacidad que tienen las sociedades para
+                usar sus recursos <br>de forma responsable y consciente, <br>evitando que se agoten <br>o que se dañe el
+                ecosistema durante el proceso.</i></p>
     </div>
     <div class="">
-        <img src="img/abono.png" width="100%">
+        <img src="img/vida.index.1.png" width="100%">
+    </div>
+    <div id="parrafo-inicio">
+        <p class="text-center mt-5"><i>¡Unite a la revolución de la agricultura orgánica y ayudanos con esta misión!</i>
+        </p>
     </div>
     <div class="">
-        <img src="img/abono.png" width="100%">
+        <img src="img/vida.index.2.png" width="100%">
     </div>
+    <div id="parrafo-inicio2">
+        <p class="text-center mt-5"><i>Enterate de más detalles de nuestros abonos <br>y de porque te conviene pasarte al
+                mundo orgánico<br> en nuestra sección:</i>
+                <br><br>
+                <a type="button" class="btn btn-outline-success btn-lg" href="nuestrosAbonos.html">NUESTROS ABONOS</a></p>
+          
+    </div>
+    <div class="">
+        <img src="img/vida.index.3.png" width="100%">
+    </div>
+    <div id="parrafo-inicio">
+        <p class="text-center mt-5"><i>Podes ver todas las variedades<br>y diferentes presentaciones<br> en nuestra sección:</i>
+                <br><br>
+                <a type="button" class="btn btn-outline-success btn-lg" href="catalogo.html">CATÁLOGO</a></p>
+          
+    </div>
+    <footer class="p-1 mt-3 fondo-marron">
+        <div class="row d-flex">
+
+            <div class="col-sm-4 d-flex flex-column">
+                <p><a href="https://www.linkedin.com/in/sdweb/" target="_blank"
+                        style=" color: var(--azul);">LinkedIn</a></p>
+                <p><a href="https://github.com/verdeverdad" target="_blank" style=" color: var(--azul);">GitHub</a>
+                </p>
+                <p><a href="https://wa.me/59899675402" target="_blank" style=" color: var(--azul);">WhatsApp</a></p>
+
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <a href="index.html" class="">
+                    <img src="img/vidafertil.logo/5.png" class="img-fluid"
+                         width="100%">
+                </a>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <p><a href="nosotros.html" style=" color: var(--verde); text-decoration: none;">NOSOTROS</a></p>
+                <p><a href="nuestrosAbonos.html" style=" color: var(--verde); text-decoration: none;">NUESTROS ABONOS</a></p>
+                <p><a href="catalogo.html" style=" color: var(--verde); text-decoration: none;">CATALOGO</a></p>
+                <p><a href="contacto.html" style=" color: var(--verde); text-decoration: none;">CONTACTO</a></p>
+                <p><a href="como_trabajamos.html" style=" color: var(--verde); text-decoration: none;">TERMINOS Y CONDICIONES</a></p>
+                <p><a href="como_trabajamos.html" style=" color: var(--verde); text-decoration: none;">POLITICAS DE PRIVACIDAD</a></p>
+            </div>
+
+        </div>
+
+        <div class="text-center">
+            <p class="small">© 2023 SDWEB Sofía Delmonte</p>
+        </div>
+    </footer>
 </body>
 
 </html>

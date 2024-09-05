@@ -3,10 +3,11 @@
   --marron: #512b10;
   --blanco: #f5eeee;
   --negro: #1d1b1b;
+  --gris: #bbb;
+  --gris-oscuro: #adadad;
 }
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -63,7 +64,7 @@ body {
 
 }
 
-#parrafo-inicio, #parrafo-inicio2 {
+#parrafo-inicio, #parrafo-inicio2, .frases {
   color: var(--marron);
   font-size: 1.5rem;
 
@@ -91,8 +92,15 @@ body {
   background-color: var(--marron);
 }
 
+.frases{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
 footer {
   color: var(--blanco);
+  margin-top: 20px;
 }
 
 a {
@@ -105,3 +113,117 @@ a {
     background-position: center;
     
   }*/
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin:  20px;
+    font-size: 24px;
+    color: var(--verde);
+}
+
+.margen {
+  margin-left:  0px;
+ 
+  
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: var(--verde);
+  color: var(--blanco);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: var(--blanco);
+  color: var(--verde);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fab {
+  font-size: 24px;
+}
+
+form, .video-responsive{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid var(--marron);
+  border-radius: 10px;
+}
+
+#h1for{
+  margin: 0 auto;
+  padding: 20px;
+
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--marron);
+  
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 2px solid var(--marron);
+  border-radius: 4px;
+}
+
+.buttonEnviar {
+  background-color: var(--verde);
+  color: var(var(--blanco));
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonEnviar:hover {
+  background-color: #45a049;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 400px;
+  /* Adecua este valor para controlar la altura del video */
+  position: relative;
+  height: 0;
+  
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
