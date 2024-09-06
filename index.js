@@ -49,9 +49,25 @@ function ajustarAltoParrafo() {
 
   function abrirWhatsApp() {
     const numeroTelefono = "+59892207574"; // Reemplaza con tu número
-    const mensaje = "Hola, me interesa el producto <strong>Bolsa de 50L.</strong> ¿Tienen disponible?";
-    const imagenUrl = "https://verdeverdad.github.io/VidaFertil/img/vida.700x700%20(13).png";
+    const mensaje = "Hola, me interesa el producto Bolsa de 50L ¿Tienen disponible?";
+    const imagenUrl = "https://verdeverdad.github.io/vidafertil/img/vida.700x700.png";
   
-    const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}&data=image&caption=${encodeURIComponent(imagenUrl)}`;
+    const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}&caption=${encodeURIComponent(imagenUrl)}`;
     window.open(url, '_blank');
   }
+
+  // (Este código se ejecutaría al cargar la página)
+$(document).ready(function(){
+  // Inicializar Bootstrap si no lo has hecho
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+  });
+});
+
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})

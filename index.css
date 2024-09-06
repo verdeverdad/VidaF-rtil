@@ -27,9 +27,12 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   /*desenfoque*/
   text-align: justify;
   background-color: var(--marron);
+  color: var(--verde);
 
 }
-
+.nav-link a {
+  color: var(--verde);
+}
 .nav-link {
   margin-left: 10px;
   margin-right: 30px;
@@ -56,17 +59,28 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   }
 }
 
-
+.close {
+  color: red;
+}
 
 #element{
   color: var(--marron);
   font-size: 2.2rem;
 
 }
-#element2, #element3 {
+#element2{
   color: var(--marron);
   font-size: 1.6rem;
 }
+
+#element3 {
+  height: 50px;
+  background-color: var(--verde);
+  color: var(--blanco);
+  font-size: 1.6rem;
+  margin-top: 50px;
+}
+
 #parrafo-inicio, #parrafo-inicio2, .frases {
   color: var(--marron);
   font-size: 1.2rem;
