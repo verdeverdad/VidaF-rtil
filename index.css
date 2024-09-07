@@ -1,15 +1,13 @@
 :root {
   --verde: #78cc42;
+  --verde-oscuro: #4CAF50;
   --marron: #512b10;
   --blanco: #f5eeee;
   --negro: #1d1b1b;
   --gris: #bbb;
   --gris-oscuro: #adadad;
 }
-body {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
+ 
 .navbar {
   position: relative;
   display: -ms-flexbox;
@@ -28,10 +26,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   text-align: justify;
   background-color: var(--marron);
   color: var(--verde);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .nav-link a {
   color: var(--verde);
+    font-size: 20px;
+    font-weight: bolder;
 }
 .nav-link {
   margin-left: 10px;
@@ -150,6 +151,10 @@ a {
     color: var(--verde);
 }
 
+.social-icons:hover a {
+  color: var(--verde-oscuro);
+}
+
 .margen {
   margin-left:  0px;
  
@@ -255,19 +260,35 @@ textarea {
 }
 
 .product-card {
-  border: 1px solid #ccc;
+  border: 1px solid var(--verde);
   padding: 20px;
   width: 400px; /* Ajusta el ancho según tus necesidades */
 
   margin: 10px;
 }
 
+.product-card h3 {
+  color: var(--marron);
+}
 .btn-whatsapp {
-  background-color: #4CAF50; /* Verde WhatsApp */
-  color: white;
+  background-color: var(--verde-oscuro); /* Verde WhatsApp */
+  color: var(--blanco);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   text-decoration: none;
 }
 
+
+#carousel {
+  width: 500px; 
+  overflow: hidden;
+}
+#slider {
+  width: 1500px; 
+  white-space: nowrap;
+}
+.slide {
+  width: 500px; 
+  display: inline-block;
+}

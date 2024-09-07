@@ -49,10 +49,11 @@ function ajustarAltoParrafo() {
 
   function abrirWhatsApp() {
     const numeroTelefono = "+59892207574"; // Reemplaza con tu número
-    const mensaje = "Hola, me interesa el producto Bolsa de 50L ¿Tienen disponible?";
-    const imagenUrl = "https://verdeverdad.github.io/vidafertil/img/vida.700x700.png";
+    const cantidad = document.getElementById('cantidad').value
+    const mensaje = "Hola, quiero comprar " + " " + cantidad + " " + "Bolsa de 50L ¿Tienen disponible?";
+    const imagenUrl = "https://verdeverdad.github.io/VidaFertil/img/vida.700x700.png";
   
-    const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}&caption=${encodeURIComponent(imagenUrl)}`;
+    const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}${encodeURIComponent(imagenUrl)}`;
     window.open(url, '_blank');
   }
 
@@ -71,3 +72,4 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
+
